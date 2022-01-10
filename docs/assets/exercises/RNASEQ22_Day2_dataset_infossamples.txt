@@ -1,0 +1,7 @@
+labels	group
+NN3_S1	newborns
+NN3_S2	newborns
+NN3_S3	newborns
+NN9_S4	adults
+NN9_S5	adults
+NN9_S6	adults

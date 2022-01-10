@@ -1,31 +1,32 @@
+---
+title: Transcriptomics Analysis RNA-seq
+summary: course website
+author: Isabelle Dupanloup
+date: 2022-01-06
+some_url: https://idupanloup.github.io/Transcriptomics-Analysis-RNA-seq/
+---
+
 # Course website
 
-## Material
+Paolo Angelino and Isabelle Dupanloup (Bioinformatics Core Facility - Swiss Institute of Bioinformatics)
 
-* This website
-* Zoom meeting (through mail)
-* Google doc (through mail)
-* [Slack channel](https://slack.com)
+## Overview
 
-## Learning outcomes
+This course will provide an overview of the RNA-seq analysis pipeline, as well as the downstream analysis of the resulting data using bioconductor packages in R. The course will cover the following topics:
 
-### General learning outcomes
+- The structure of an RNAseq analysis pipeline:
+	- Raw data quality check
+	- RNAseq reads alignment
+	- Gene Expression level quantification and normalization of read counts
+- Overview of downstream analysis
+	- Differential Expression analysis with R/Bioconductor packages
+	- Class discovery: usage of Principal Component Analysis, Clustering, Heatmaps, Gene Set Enrichment Analysis in RNA-seq analysis
 
-After this course, you will be able to:
+Next Generation Sequencing (NGS) techniques will not be covered in this course.
+Experimental design as well as the statistical methods will not be detailed in this course. 
 
-### Learning outcomes explained
+## Asking questions
 
-To reach the general learning outcomes above, we have set a number of smaller learning outcomes. Each chapter starts with these smaller learning outcomes. Use these at the start of a chapter to get an idea what you will learn. Use them also at the end of a chapter to evaluate whether you have learned what you were expected to learn.
-
-## Learning experiences
-
-To reach the learning outcomes we will use lectures, exercises, polls and group work. During exercises, you are free to discuss with other participants. During lectures, focus on the lecture only.
-
-### Exercises
-
-Each block has practical work involved. Some more than others. The practicals are subdivided into chapters, and we'll have a (short) discussion after each chapter. All answers to the practicals are incorporated, but they are hidden. Do the exercise first by yourself, before checking out the answer. If your answer is different from the answer in the practicals, try to figure out why they are different.
-
-### Asking questions
 During lectures, you are encouraged to raise your hand if you have questions (if in-person), or use the Zoom functionality (if online). Find the buttons in the participants list ('Participants' button):
 
 <figure>
@@ -38,16 +39,3 @@ Alternatively, (depending on your zoom version or OS) use the 'Reactions' button
   <img src="assets/images/reactions_zoom.png" width="200"/>
 </figure>
 
-A main source of communication will be our [slack channel](https://www.slack.com). Ask background questions that interest you personally at **#background**. During the exercises, e.g. if you are stuck or don't understand what is going on, use the slack channel **#q-and-a**.  This channel is not only meant for asking questions but also for answering questions of other participants. If you are replying to a question, use the "reply in thread" option:
-
-<figure>
-  <img src="assets/images/reply_in_thread.png" width="350"/>
-</figure>
-
-The teacher will review the answers, and add/modify if necessary. If you're really stuck and need specific tutor support, write the teachers or helpers personally.
-
-**To summarise:**
-
-* During lectures: raise hand/zoom functionality
-* Personal interest questions: **#background**
-* During exercises: **\#q-and-a** on slack
